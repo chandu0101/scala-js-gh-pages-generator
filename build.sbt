@@ -34,3 +34,6 @@ crossTarget in (Compile, fastOptJS) := file("js")
 crossTarget in (Compile, packageJSDependencies) := file("js")
 
 crossTarget in (Compile, packageScalaJSLauncher) := file("js")
+
+artifactPath in (Compile, fastOptJS) := ((crossTarget in (Compile, fastOptJS)).value /
+  ((moduleName in fastOptJS).value + "-opt.js"))
