@@ -35,14 +35,15 @@ cEcho "no comment specified to deploy, using default : version 0.0.1" yellow
 fi
 
 #get directories
+fileName="deployment.json"
 
-cssPath=($(jq -r '.css' file.json))
+cssPath=($(jq -r '.css' $fileName))
 
-htmlPath=($(jq -r '.html' file.json))
+htmlPath=($(jq -r '.html' $fileName))
 
-jsPath=($(jq -r '.js' file.json))
+jsPath=($(jq -r '.js' $fileName))
 
-imagesPath=($(jq -r '.images' file.json))
+imagesPath=($(jq -r '.images' $fileName))
 
 
 # validating directories
