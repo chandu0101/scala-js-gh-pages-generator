@@ -88,7 +88,7 @@ if [ $isHtmlPath ]; then
 fi
 
 if [ $isJsPath ]; then
-  git checkout master -- "$jsPath"
+  git checkout master -- "$jsPath/*.js"
 fi
 
 if [ $isImagesPath ]; then
