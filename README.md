@@ -46,3 +46,8 @@ http://chandu0101.github.io/scala-js-gh-pages-generator/
  ```
  http(s)://<username>.github.io/<projectname>
 ```
+
+ -> If you make any further changes , commit to master branch and run deploy.sh
+    refresh your page you'll see new changes.
+
+    
