@@ -3,9 +3,7 @@ scala-js-gh-pages-generator
 
 Template project to demonstrate scala.js gh-pages generator.
 
-To know more about github project see this link :
-
- https://help.github.com/articles/creating-project-pages-manually/
+To know more about github project pages see this link : https://help.github.com/articles/creating-project-pages-manually/
 
 
 
