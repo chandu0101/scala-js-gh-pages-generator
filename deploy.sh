@@ -30,8 +30,8 @@ tput sgr0;
 comment="$1"
 
 if [ "$comment" == "" ]; then
-comment="adding gh-pages"
-cEcho "no comment specified to deploy, using default : version 0.0.1" yellow
+comment="version 0.1"
+cEcho "no comment specified to deploy, using default : $comment" yellow
 fi
 
 #get directories
