@@ -7,14 +7,14 @@ To know more about github project pages see this link : https://help.github.com/
 
 
 
-*Demo* :
+***Demo*** :
 
 http://chandu0101.github.io/scala-js-gh-pages-generator/
 
 ![AppDemo](/images/app.png?raw=true)
 
 
-*Usage* :
+***Usage*** :
 
  -> Commit All Your changes to master branch
 
